@@ -1,11 +1,9 @@
-#ifndef BITCOINEXCHANGE_HPP
-# define BITCOINEXCHANGE_HPP
+#ifndef RPN_HPP
+# define RPN_HPP
 
 # include <iostream>
-# include <fstream>
+# include <stack>
 # include <cstdlib>
-# include <climits>
-# include <map>
 
 # define RED "\x1b[1m\x1b[38;2;255;0;0m"
 # define MB "\x1b[1m\x1b[38;2;25;25;599m"
@@ -14,7 +12,7 @@
 # define DV "\x1b[1m\x1b[38;2;148;0;211m"
 # define C "\x1b[0m"
 
-int		open_file(char *path);
 void	error(const char *type, const char *msg, const char *bold);
+int		compute(const char *str);
 
 #endif

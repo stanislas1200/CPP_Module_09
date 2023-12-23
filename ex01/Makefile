@@ -11,10 +11,11 @@
 # **************************************************************************** #
 
 SRCS = src/main.cpp\
+		src/RPN.cpp
 
-INCL = include/easyfind.hpp
+INCL = include/RPN.hpp
 
-NAME =  a.out
+NAME =  RPN
 
 GCC = g++ -std=c++98 -Wall -Wextra -Werror #-fsanitize=address
 

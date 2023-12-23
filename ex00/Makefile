@@ -11,6 +11,7 @@
 # **************************************************************************** #
 
 SRCS = src/main.cpp\
+		src/BitcoinExchange.cpp
 
 INCL = include/BitcoinExchange.hpp
 
