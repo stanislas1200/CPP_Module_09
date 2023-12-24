@@ -11,10 +11,11 @@
 # **************************************************************************** #
 
 SRCS = src/main.cpp\
+		src/PmergeMe.cpp
 
-INCL = include/easyfind.hpp
+INCL = include/PmergeMe.hpp
 
-NAME =  a.out
+NAME =  PmergeMe
 
 GCC = g++ -std=c++98 -Wall -Wextra -Werror #-fsanitize=address
 
