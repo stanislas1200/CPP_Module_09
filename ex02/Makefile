@@ -6,7 +6,7 @@
 #    By: sgodin <sgodin@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/08/13 14:39:47 by sgodin            #+#    #+#              #
-#    Updated: 2023/08/23 15:47:47 by sgodin           ###   ########.fr        #
+#    Updated: 2024/01/24 15:31:13 by sgodin           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ INCL = include/PmergeMe.hpp
 
 NAME =  PmergeMe
 
-GCC = g++ -std=c++98 -Wall -Wextra -Werror #-fsanitize=address
+GCC = c++ -std=c++98 -Wall -Wextra -Werror #-fsanitize=address
 
 OBJS_DIR = ./objects/
 OBJS = $(addprefix $(OBJS_DIR), $(SRCS:.cpp=.o))
