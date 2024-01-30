@@ -49,6 +49,10 @@ int compute(const char *str) {
 		error("Invalid input: ", "not enough operator in stack to perform next ", str);
 		return 1;
 	}
+	if (stack.size() < 1) {
+		error("Invalid input: ", "empty ", str);
+		return 1;
+	}
 	std::cout << MB "Result: " GREEN << stack.top() << C << std::endl;
 	return 0;
 }
